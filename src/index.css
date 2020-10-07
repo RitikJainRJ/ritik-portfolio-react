@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
     font-family: RobotoCondensed;
     src: url(assets/roboto-condensed.light.ttf);
     font-weight: 800;
@@ -29,13 +29,13 @@
   .title-fade-out {
     opacity: 0;
     animation-name: fade-out;
-    animation-duration: 2s;
+    animation-duration: 3s;
   }
   
   .title-fade-in {
     opacity: 100;
     animation-name: fade-in;
-    animation-duration: 2s;
+    animation-duration: 3s;
   }
   
   @keyframes fade-out {
