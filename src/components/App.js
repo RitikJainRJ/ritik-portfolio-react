@@ -3,6 +3,7 @@ import profile from '../assets/profile.jpg';
 import Projects from './Projects';
 import Title from './Title';
 import CodingProfiles from './CodingProfiles';
+import '../index.css';
 
 
 class App extends Component{
