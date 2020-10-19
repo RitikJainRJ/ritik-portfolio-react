@@ -6,6 +6,7 @@ import Header from './components/Header';
 import App from './components/App';
 import SocialProfiles from './components/SocialProfiles';
 import MusicMaster from './projects/music-master/src';
+import MemeGenerator from './projects/meme-generator/src';
 import './index.css';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Route exact path = "/" render = {() => <Header><App /></Header>}/>
             <Route path = "/contact" render = {() => <Header><SocialProfiles /></Header>}/>
             <Route path = "/music-master" render = {() => <Header><MusicMaster /></Header>}/>
+            <Route path = "/meme-generator" render = {() => <Header><MemeGenerator /></Header>}/>
         </Switch>
     </Router>,
     document.getElementById('root')
