@@ -1,50 +1,61 @@
-  @font-face {
-    font-family: RobotoCondensed;
-    src: url(assets/roboto-condensed.light.ttf);
-    font-weight: 800;
-  }
-  
-  @font-face {
-    font-family: EconomicaBold;
-    src: url(assets/economica-bold.ttf);
-  }
-  
-  body {
-    text-align: center;
-    font-size: 15px;
-    padding: 1.5%;
-    font-family: 'RobotoCondensed';
-  }
-  
-  h1, h2, h3, h4, h5 {
-    font-family: 'EconomicaBold';
-  }
-  
-  .profile {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-  }
-  
-  .title-fade-out {
-    opacity: 0;
-    animation-name: fade-out;
-    animation-duration: 3s;
-  }
-  
-  .title-fade-in {
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 15px;
+  padding: 1.5%;
+  font-family: "RobotoCondensed";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EconomicaBold";
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 3s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+@keyframes fade-out {
+  from {
     opacity: 100;
-    animation-name: fade-in;
-    animation-duration: 3s;
   }
-  
-  @keyframes fade-out {
-    from {opacity: 100}
-    to {opacity: 0}
+  to {
+    opacity: 0;
   }
-  
-  @keyframes fade-in {
-    from {opacity: 0}
-    to {opacity: 100}
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
-  
+  to {
+    opacity: 100;
+  }
+}
