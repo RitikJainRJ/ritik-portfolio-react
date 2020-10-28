@@ -30,9 +30,7 @@ class App extends Component {
             <p>I am currently living in Delhi.</p>
             <p>I am pursuing my masters from NSUT (NSIT).</p>
             <p>I pretty much Code everyday.</p>
-            <p>
-              I love Data structures, Algorithms, Machine Learning and React.
-            </p>
+            <p>I love Data structures, Algorithms, ReactJS and ML.</p>
             <button onClick={this.toggleBio}>Read Less</button>
           </div>
         ) : (

@@ -5,11 +5,11 @@ import project3 from "../assets/project3.jpg";
 const PROJECTS = [
   {
     id: 1,
-    title: "Emotion and Gender Classification",
+    title: "Web based Chat application",
     description:
-      "Aim of the project is to build a CNN which is used to detect emotion of a person using image.",
-    link: "https://github.com/RitikJainRJ/Emotion-and-Gender-Classification-",
-    image: project1,
+      "Aim of the project is to build a full stack chat application where people can send direct messages and create channels.",
+    link: "https://chat-app-df397.web.app/",
+    image: project3,
   },
   {
     id: 2,
@@ -21,12 +21,11 @@ const PROJECTS = [
   },
   {
     id: 3,
-    title: "Sentiment Analysis of Restaurant Reviews",
+    title: "Emotion Classification",
     description:
-      "Aim of the project is to build a prediction model to predict whether a review on the restaurant is positive or negative",
-    link:
-      "https://colab.research.google.com/drive/1fwd-K7DCftDGv0HCJbNa7e35tWxHAmij?usp=sharing",
-    image: project3,
+      "Aim of the project is to build a CNN which is used to detect emotion of a person using image.",
+    link: "https://github.com/RitikJainRJ/Emotion-Classification-",
+    image: project1,
   },
 ];
 
