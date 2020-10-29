@@ -32,10 +32,16 @@ class App extends Component {
             <p>I pretty much Code everyday.</p>
             <p>I love Data structures, Algorithms, ReactJS and ML.</p>
             <button onClick={this.toggleBio}>Read Less</button>
+            <a href="https://drive.google.com/file/d/1mncS4eh3nM1dJVp8gIHyiiaW8U01631L/view?usp=sharing">
+              <button>My Resume</button>
+            </a>
           </div>
         ) : (
           <div>
             <button onClick={this.toggleBio}>Read More</button>
+            <a href="https://drive.google.com/file/d/1mncS4eh3nM1dJVp8gIHyiiaW8U01631L/view?usp=sharing">
+              <button>My Resume</button>
+            </a>
           </div>
         )}
         <hr />
